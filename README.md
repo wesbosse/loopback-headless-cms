@@ -13,4 +13,4 @@ This project was launched in response to 2 factors:
 
 ## Guidelines for Contributing
 
-This project is open source and open to outside contributions! If you are interested in pitching in, [read the contribution guidelines by clicking here](https://www.github.com/SanDiegoCodeSchool/loopback-headless-cms/docs/contributing.md)
+This project is open source and open to outside contributions! If you are interested in pitching in, [read the contribution guidelines by clicking here](./docs/contributing.md)
