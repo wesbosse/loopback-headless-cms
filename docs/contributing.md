@@ -9,7 +9,7 @@ After you have forked the project to your account, clone it down to your local m
 When a new version of the project is released,  you will want to incorporate those changes into your forked version of the repo. To establish a link between your local repo and the main project repo on github:
 
 ```console
-git remote add upstream <original_repo_url>
+$ git remote add upstream <original_repo_url>
 ```
 
 where the original repo url is either 
@@ -23,13 +23,13 @@ depending on whether or not you have ssh enabled.
 To pull in the changes from the original or *`upstream`* repo, the following commands will save your current changes to a branch called "stash" and pull the latest code to your master branch:
 
 ```console
-git checkout -b stash
-git add .
-git commit -m "stashing changes"
-git push -u origin stash
-git checkout master
-git fetch --all
-git reset --hard origin/master
+$ git checkout -b stash
+$ git add .
+$ git commit -m "stashing changes"
+$ git push -u origin stash
+$ git checkout master
+$ git fetch --all
+$ git reset --hard origin/master
 ```
 
 Once you have finalized the changes that you want included in the next release, create a pull request to the staging branch of the original repo. (*You may need to use the "compare across forks" link on the Pull Request screen in order to execute this step.*)
